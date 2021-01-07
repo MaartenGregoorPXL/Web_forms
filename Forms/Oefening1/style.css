@@ -1,0 +1,21 @@
+label {
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+}
+
+input {
+    display: inline-block;
+    width: 200px;
+    margin: 5px;
+}
+
+label[id="BusL"]{
+    display: inline-block;
+    width: 64px;
+}
+
+input[id="Nummer"], input[id="Bus"] {
+    display: inline-block;
+    width: 50px;
+}

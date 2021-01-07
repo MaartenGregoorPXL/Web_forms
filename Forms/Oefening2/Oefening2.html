@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oefening2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Stel je eigen pizza samen en we mailen hem naar jou!</h3>
+    <form action="mailto:maarten.gregoor@student.pxl.be" method="post" enctype="text/plain">
+        <label class="topLabel">Naam:</label> <br>
+        <input type="text" name="Naam" id="Naam" required> <br>
+        <label class="topLabel">Korst:</label> <br>
+        <input type="radio" value="Klassiek" name="Korst"> <label class="Korst">Klassiek</label>
+        <input type="radio" value="Italiaans" name="Korst"> <label class="Korst">Italiaans</label>
+        <input type="radio" value="Amerikaans" name="Korst"> <label class="Korst">Amerikaans</label> <br>
+        <label class="topLabel">Toppings:</label> <br>
+        <input type="checkbox" value="On" name="Hesp"> <label class="Toppings">Hesp</label>
+        <input type="checkbox" value="On" name="Scampi"> <label class="Toppings">Scampi</label>
+        <input type="checkbox" value="On" name="Ajuin"> <label class="Toppings">Ajuin</label> <br>
+        <input type="checkbox" value="On" name="Champignons"> <label class="Toppings">Champignons</label>
+        <input type="checkbox" value="On" name="Tonijn"> <label class="Toppings">Tonijn</label>
+        <input type="checkbox" value="On" name="Artisjok"> <label class="Toppings">Artisjok</label> <br>
+        <input type="checkbox" value="On" name="Tomaat"> <label class="Toppings">Tomaat</label>
+        <input type="checkbox" value="On" name="Salami"> <label class="Toppings">Salami</label>
+        <input type="checkbox" value="On" name="Maïs"> <label class="Toppings">Maïs</label> <br>
+        <input type="checkbox" value="On" name="Kaas"> <label class="Toppings">Kaas</label>
+        <input type="checkbox" value="On" name="Kip"> <label class="Toppings">Kip</label>
+        <input type="checkbox" value="On" name="Mozzarella"> <label class="Toppings">Mozzarella</label> <br>
+        <input type="checkbox" value="On" name="Paprika"> <label class="Toppings">Paprika</label>
+        <input type="checkbox" value="On" name="Shoarma"> <label class="Toppings">Shoarma</label>
+        <input type="checkbox" value="On" name="Ananas" disabled="disabled"> <label class="Toppings">Ananas</label> <br>
+        <label class="topLabel">Opmerkingen:</label> <br>
+        <textarea rows="4" cols="50" name="Opmerkingen"></textarea> <br>
+        <label class="topLabel">Betaalwijze</label> <br>
+        <select name="Betaalwijze"  required>
+            <option></option>
+            <option value="Bancontact">Bancontact</option>
+            <option value="Visa">Visa</option>
+            <option value="Overschrijving">Overschrijving</option>
+            <option value="Cash">Cash</option>
+        </select> <br>
+        <input type="submit" value="Ziet er lekker uit, bestellen maar!">
+    </form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+input {
+    margin: 10px;
+}
+
+.topLabel {
+    font-weight: bold;
+}
+
+.Korst {
+    font-weight: bold;
+}
+
+.Toppings {
+    display: inline-block;
+    width: 100px;
+}
